@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Bigram Frequency Chart";
+}
+
+    <div>    
+    <form asp-controller="Bigram" asp-action="Index" method="post">
+        <div class="form-control">
+            Please enter at least two words: <input type="text" name="InputText" size="50">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    </div>
